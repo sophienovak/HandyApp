@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="18D42" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
+    <entity name="UserDetails" representedClassName="UserDetails" syncable="YES">
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserNotes" representedClassName="UserNotes" syncable="YES">
+        <attribute name="notedate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="notetext" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="UserDetails" positionX="-54" positionY="-9" width="128" height="60"/>
+        <element name="UserNotes" positionX="-27" positionY="27" width="128" height="75"/>
+        <element name="Entity" positionX="9" positionY="72" width="128" height="45"/>
+    </elements>
+</model>
